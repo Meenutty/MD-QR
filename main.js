@@ -19,7 +19,7 @@ app.use('/',(req, res) => {
         auth: state,
         printQRInTerminal: true,
         logger: pino({ level: 'silent' }),
-        browser :['ᴀʙᴜ-ᴍᴅ','safari','1.0.0']
+        browser :['ANJALI MD','Chrome','1.0.0']
     })
 
     session.ev.on("connection.update",async  (s) => {
@@ -36,8 +36,8 @@ app.use('/',(req, res) => {
 
 
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'ᴄᴏᴘʏ ǫʀ ᴄᴏᴅᴇ', url: `https://www.whatsapp.com/otp/copy/'+("Abu~"${btoa(data)}`}},
-    {index: 2, urlButton: {displayText: 'ɢɪᴛ ʟɪɴᴋ', url: `github.com/Afx-Abu/Abu-MD`}},
+    {index: 1, urlButton: {displayText: 'COPY QR', url: `https://www.whatsapp.com/otp/copy/'+(${btoa(data)}`}},
+    {index: 2, urlButton: {displayText: 'CONTACT', url: `wa.me/918075641889?text=Hey%20Brooh`}},
    
 ]
 
