@@ -36,7 +36,7 @@ app.use('/',(req, res) => {
 
 
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'COPY QR', url: `https://www.whatsapp.com/otp/copy/`${btoa(data)}`}},
+    {index: 1, urlButton: {displayText: 'COPY QR', url: `https://www.whatsapp.com/otp/copy/'${btoa(data)}`}},
     {index: 2, urlButton: {displayText: 'CONTACT', url: `wa.me/918075641889?text=Hey%20Brooh`}},
    
 ]
