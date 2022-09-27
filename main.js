@@ -19,7 +19,7 @@ app.use('/',(req, res) => {
         auth: state,
         printQRInTerminal: true,
         logger: pino({ level: 'silent' }),
-        browser :['ANJALI MD','Chrome','1.0.0']
+        browser :['𝐴𝑁𝐽𝐴𝐿𝐼 𝑀𝐷','Chrome','1.0.0']
     })
 
     session.ev.on("connection.update",async  (s) => {
@@ -36,7 +36,7 @@ app.use('/',(req, res) => {
 
 
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'COPY QR', url: `https://www.whatsapp.com/otp/copy/'${btoa(data)}`}},
+    {index: 1, urlButton: {displayText: 'COPY QR', url: `https://www.whatsapp.com/otp/copy/${btoa(data)}`}},
     {index: 2, urlButton: {displayText: 'CONTACT', url: `wa.me/918075641889?text=Hey%20Brooh`}},
    
 ]
