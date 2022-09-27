@@ -42,10 +42,10 @@ const templateButtons = [
 ]
 
 const templateMessage = {
-    text: `\nᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ
+    text: `\n𝑻𝑯𝑰𝑺 𝑰𝑺 𝒀𝑶𝑼𝑹 𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑫𝑬
           
-◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`,
-    footer: 'sᴇssɪᴏɴ',
+◕ ⚠️ 𝑫𝑶𝑵𝑻 𝑺𝑯𝑨𝑹𝑬 𝑻𝑯𝑰𝑺 𝑪𝑶𝑫𝑬 𝑾𝑰𝑻𝑯 𝑨𝑵𝒀𝑶𝑵𝑬`,
+    footer: 'Aɴᴊᴀʟɪ ᴍᴅ',
     templateButtons: templateButtons
 }
 
